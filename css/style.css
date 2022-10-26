@@ -1,0 +1,163 @@
+.main-body {
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+}
+/* back to top button */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #f71c30;
+  color: #fdfffe;
+}
+/* first */
+.first {
+  padding: 0 10% 10% 10%;
+  background-color: #051200;
+}
+h1 {
+  font-weight: 700;
+  text-decoration: underline #f71c30 0.3rem;
+  text-underline-offset: 0.6rem;
+}
+
+.Under-line {
+  height: 1.5px;
+  opacity: 1;
+  background-color: #f71c30;
+}
+.custom-nav-effect {
+  color: #fdfffe;
+}
+.custom-nav-effect:hover {
+  color: #fdfffe;
+  text-decoration: underline #f71c30 0.1rem;
+  text-underline-offset: 0.5rem;
+}
+.intro-name {
+  padding-top: 5%;
+  font-size: 4.5rem;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: #fdfffe;
+}
+.intro-desc {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #fdfffe;
+}
+@media (max-width: 1024px) {
+  .intro-name {
+    padding-top: 5%;
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #fdfffe;
+  }
+  .intro-desc {
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #fdfffe;
+  }
+}
+@media (max-width: 480px) {
+  .intro-name {
+    padding-top: 5%;
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #fdfffe;
+  }
+  .intro-desc {
+    font-size: 0.5rem;
+    font-weight: 100;
+    color: #fdfffe;
+  }
+}
+/* second-section */
+.second {
+  padding: 5% 10% 10% 10%;
+  background-color: #fdfffe;
+}
+.my-work {
+  padding-bottom: 5%;
+  color: #051200;
+}
+.slide-show {
+  width: 65%;
+  margin: auto;
+}
+@media (max-width: 1024px) {
+  .slide-show {
+    width: 100%;
+    margin: auto;
+  }
+}
+.quote {
+  padding-top: 5%;
+}
+/* third */
+.third {
+  padding: 5% 10% 10% 10%;
+  background-color: #051200;
+}
+
+.my-skills {
+  color: #fdfffe;
+  padding-bottom: 5%;
+}
+.skills-icon {
+  color: #007ab3;
+  font-size: 4.5rem;
+}
+.skills-name {
+  color: #fdfffe;
+  font-weight: 400;
+}
+.skills-desc {
+  color: #7e7e7e;
+}
+/* fourth */
+.fourth {
+  padding: 5% 10% 10% 10%;
+  background-color: #fdfffe;
+}
+.my-image {
+  border-radius: 5%;
+  width: 60%;
+}
+.about-connect {
+  color: #051200;
+  padding-bottom: 10%;
+}
+.intro-text {
+  padding-top: 5%;
+  text-align: left;
+}
+.connect-icon {
+  color: #007ab3;
+  font-size: 1.5rem;
+}
+
+/* last */
+.last {
+  padding: 3% 10% 5% 10%;
+  background-color: #051200;
+}
+.footer-logo {
+  width: 7.5rem;
+}
+.address {
+  color: #fdfffe;
+  font-size: 0.8rem;
+}
+.social-icons {
+  color: #7e7e7e;
+  margin: 20px 20px;
+}
+.social-icons:hover {
+  /* color: #545454; */
+  /* color: #f71c30; */
+  color: #007ab3;
+}
