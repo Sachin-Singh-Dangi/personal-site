@@ -94,6 +94,12 @@ h1 {
     margin: auto;
   }
 }
+@media (max-width: 1024px) {
+  .my-image {
+    border-radius: 5%;
+    width: 30%;
+  }
+}
 .quote {
   padding-top: 5%;
 }
