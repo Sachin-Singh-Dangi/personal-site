@@ -136,7 +136,7 @@ h1 {
 @media (max-width: 1024px) {
   .my-image {
     border-radius: 5%;
-    width: 35%;
+    width: 25%;
   }
 }
 .about-connect {
