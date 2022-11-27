@@ -178,3 +178,8 @@ h1 {
 .social-icons:hover {
   color: #007ab3;
 }
+/* selection */
+::selection {
+  color: #f71c30;
+  background-color: #fdfffe;
+}
